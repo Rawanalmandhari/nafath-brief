@@ -34,5 +34,9 @@ Under Oman’s Personal Data Protection Law (Royal Decree 6/2021), the authority
 Resource: Royal Decree 6/2021 Promulgating the Personal Data Protection Law - https://moci.gov.om/pdpl
 
 ## Misconception in My Track
+A common misconception in networking is that DNS over HTTPS (DoH) provides full end-to-end anonymity and complete network privacy. In reality, DoH only encrypts DNS resolution requests between the client and resolver. It does not hide the server's target IP address, nor does it encrypt traffic data after DNS resolution occurs. RFC 8484 explicitly states that DoH does not protect against IP tracking or endpoint monitoring.
+
+Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://datatracker.ietf.org/doc/html/rfc8484
 
 ## Open Question
+How will NAFATH-V1 handle offline identity verification or fallback authentication for citizens with limited internet connectivity?
